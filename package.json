@@ -1,0 +1,34 @@
+{
+  "name": "typescript-react-todo-app",
+  "version": "1.0.0",
+  "description": "http://is-tech-labo.com/seminar/typescript_reactjs_todo/",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --colors --watch --config ./webpack.config.dev.js",
+    "build:prod": "webpack --config ./webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pluselc@github.com/pluselc/typescript-react-todo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pluselc/typescript-react-todo-app/issues"
+  },
+  "homepage": "https://github.com/pluselc/typescript-react-todo-app#readme",
+  "devDependencies": {
+    "ts-loader": "^1.3.3",
+    "typescript": "^2.1.4",
+    "typings": "^2.1.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "es6-shim": "^0.35.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0"
+  }
+}

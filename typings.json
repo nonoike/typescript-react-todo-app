@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "react": "registry:dt/react#0.14.0+20161211160957",
+    "react-dom": "registry:dt/react-dom#0.14.0+20161119154402",
+    "react-redux": "registry:dt/react-redux#4.4.0+20161124155658"
+  },
+  "globalDependencies": {
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160726072212",
+    "redux": "registry:dt/redux#3.5.2+20160703092728"
+  }
+}
